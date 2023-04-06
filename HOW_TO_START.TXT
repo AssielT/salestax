@@ -1,0 +1,12 @@
+Prerequisites:
+    * Java 17
+
+
+This is a commandline application. It prints the receipt of a shopping list on the console.
+You can run it with the following command:
+
+    ./gradlew run --args="<PATH_TO_SHOPPINGLIST_FILE>"
+
+    e.g.
+
+    ./gradlew run --args="/home/user/myshoppinglist.txt"
